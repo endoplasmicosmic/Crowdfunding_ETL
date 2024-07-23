@@ -5,13 +5,13 @@ Date: 7/23/2024
 
 Files For Grading:
 
-ETL_Mini_Project_FArffmann_PGupta_SGingery_JMcNamara_JWhited.ipynb
-QuickDBD-ETL_Mini_Project_ERD.png
-crowdfunding_db_schema.sql
-campaign.csv
-category.csv
-contacts.csv
-subcategory.csv
+- ETL_Mini_Project_FArffmann_PGupta_SGingery_JMcNamara_JWhited.ipynb
+- QuickDBD-ETL_Mini_Project_ERD.png
+- crowdfunding_db_schema.sql
+- campaign.csv
+- category.csv
+- contacts.csv
+- subcategory.csv
 
 Project Overview
 
@@ -19,7 +19,7 @@ This ETL (Extract, Transform, Load) Mini Project is a collaborative effort aimed
 
 1. Create the Category and Subcategory DataFrames
 
-Category DataFrame
+a) Category DataFrame
 
 We began by extracting and transforming data from the crowdfunding.xlsx file to create a Category DataFrame. This DataFrame includes:
 
@@ -28,7 +28,7 @@ We began by extracting and transforming data from the crowdfunding.xlsx file to 
 
 The resulting DataFrame was exported as category.csv and saved to our GitHub repository.
 
-Subcategory DataFrame
+b) Subcategory DataFrame
 
 Similarly, we extracted and transformed the data to create a Subcategory DataFrame, which includes:
 
