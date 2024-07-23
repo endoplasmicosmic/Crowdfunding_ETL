@@ -64,17 +64,18 @@ We imported data from the contacts.xlsx file and extracted the contact_id, name,
 
 4. Create the Crowdfunding Database
 
-ERD and Table Schema
+a) ERD and Table Schema
 
 We inspected the four CSV files and created an Entity-Relationship Diagram (ERD) using QuickDBD. Using the ERD, we defined the table schema, including data types, primary keys, foreign keys, and other constraints. The schema was saved as crowdfunding_db_schema.sql. The ERD was saved as QuickDBD-ETL_Mini_Project_ERD.png. Both were uploaded to our GitHub repository.
 
-Database Creation
+b) Database Creation
 
 We created a new Postgres database named crowdfunding_db and used the schema to create the tables in the correct order to manage foreign keys. Each table was verified with a SELECT statement to ensure successful creation.
-Data Import
+
+c) Data Import
 
 Finally, we imported each CSV file into its corresponding SQL table and verified the data with SELECT statements to ensure the correctness of the data.
 
-Conclusion
+5. Conclusion
 
-This ETL Mini Project demonstrates our ability to extract, transform, and load data into a structured database, following best practices for data handling and database management. The project files, including the transformed data and database schema, are available in our GitHub repository for further reference and use.
+This ETL Mini Project demonstrates our ability to extract, transform, and load data into a structured database, following best practices for data handling and database management. The project files, including the transformed data and database schema, are available in this GitHub repository for further reference and use.
