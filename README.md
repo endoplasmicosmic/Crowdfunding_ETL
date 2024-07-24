@@ -83,4 +83,4 @@ This ETL Mini Project demonstrates our ability to extract, transform, and load d
 ### Sources:
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
-- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+- [QuickDBD](https://app.quickdatabasediagrams.com/#/)
